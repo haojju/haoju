@@ -1,10 +1,10 @@
 {
   "id": "./",
-  "name": "好居 HAŌJU 租屋",
+  "name": "好居 HAŌJU 房屋交易",
   "short_name": "好居",
-  "description": "找租屋、收藏房源、刊登與預約看屋。",
+  "description": "租屋、買屋、新建案、土地、商用物件搜尋刊登與官方成交行情。",
   "lang": "zh-Hant",
-  "start_url": "./#/",
+  "start_url": "./#/home",
   "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
