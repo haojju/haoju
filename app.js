@@ -202,14 +202,14 @@ function enhancePostingForm(form,p,contact,isEditing,isPublishedRevision=false){
  const row=(label,content)=>`<div class="field posting-row"><label>${label}</label><div class="posting-controls">${content}</div></div>`;
  const input=(name,type='text',extra='')=>`<input name="rd_${name}" type="${type}" ${extra}>`;
  const choices=(name,items,multi=false)=>items.map(x=>`<label><input type="${multi?'checkbox':'radio'}" name="rd_${name}" value="${x}"> ${x}</label>`).join('');
- const add=(section,html)=>section.insertAdjacentHTML('beforeend',html);
+ const add=(section,html)=>{const target=section.querySelector(':scope > .form-grid')||section;target.insertAdjacentHTML('beforeend',html)};
  const basic=form.querySelector('#listing-basic-details'),pricing=form.querySelector('#listing-pricing'),life=form.querySelector('#listing-amenities'),desc=form.querySelector('#listing-description');
  // Put basic information first, and keep sections as siblings for accurate scroll tracking.
  const container=form.querySelector('#listing-basic');
  const heading=container.querySelector('h2');if(heading)heading.remove();
  basic.id='listing-basic-fields';basic.querySelector('h3').textContent='基礎資料';
  container.before(basic,pricing,life,desc);container.remove();basic.id='listing-basic';
- const move=(name,target,label)=>{const el=block(name);if(!el)return;target.append(el);if(label){const l=el.querySelector('label,span');if(l)l.textContent=label}};
+ const move=(name,target,label)=>{const el=block(name);if(!el)return;(target.querySelector(':scope > .form-grid')||target).append(el);if(label){const l=el.querySelector('label,span');if(l)l.textContent=label}};
  // Match 591's single address row while retaining the original named controls for saving.
  const addressRow=document.createElement('div');addressRow.className='field full listing-address-row';addressRow.innerHTML='<label>出租地址 <b>*</b></label><div class="listing-address-controls"></div>';
  const addressControls=addressRow.querySelector('.listing-address-controls');
@@ -218,11 +218,11 @@ function enhancePostingForm(form,p,contact,isEditing,isPublishedRevision=false){
  const locationNote=form.querySelector('#listing-location-warning');if(locationNote){locationNote.classList.add('listing-location-warning');addressControls.append(locationNote)}
  basic.querySelector('.form-grid').prepend(addressRow);
  ['area_ping','floor_label','layout','bedrooms','bathrooms','parking_spaces'].forEach(n=>move(n,basic));
- move('title',desc,'廣告標題 *');desc.prepend(block('title'));
+ move('title',desc,'廣告標題 *');
  move('advertiser_type',form.querySelector('#listing-contact'),'聯絡人身分');move('brokerage_name',form.querySelector('#listing-contact'));
  move('included_fees',pricing,'租金包含');
  add(basic,row('出租總樓層 *',input('total_floors','number','min="1" max="200"')+' 層')+row('電梯',choices('elevator',['無','有']))+row('權狀坪數',input('registered_area','number','min="0" step="0.01"')+' 坪')+row('車位',choices('has_parking',['無','有']))+row('格局',choices('layout_features',['樓中樓','有陽台'],true))+row('建築完工時間',choices('completion_type',['成屋','預售屋／屋齡不詳'])+' 民國 '+input('completion_year','number','min="1" max="300"')+' 年 '+input('completion_month','number','min="1" max="12"')+' 月 '+input('completion_day','number','min="1" max="31"')+' 日 <output id="building-age-preview"></output>')+row('朝向',`<select name="rd_orientation"><option value="">請選擇</option>${['坐東朝西','坐西朝東','坐南朝北','坐北朝南','坐東南朝西北','坐西北朝東南','坐東北朝西南','坐西南朝東北'].map(x=>`<option>${x}</option>`).join('')}</select>`)+row('裝潢時間',choices('renovation_time',['半年內','1年內','3年內','3年以上']))+row('裝潢程度',choices('renovation_level',['尚未裝潢','簡易裝潢','中檔裝潢','高檔裝潢'])));
- const lease=document.createElement('section');lease.className='listing-form-subsection';lease.dataset.navSection='listing-pricing';lease.innerHTML='<h3>租住說明</h3>';basic.after(lease);
+ const lease=document.createElement('section');lease.className='listing-form-subsection';lease.dataset.navSection='listing-pricing';lease.innerHTML='<h3>租住說明</h3><div class="form-grid"></div>';basic.after(lease);
  add(lease,row('最短租期',choices('minimum_lease',['三個月','半年','1年','2年','其它']))+row('可遷入日',input('available_date','date')+choices('available_now',['隨時可遷入'],true))+row('提供設備',choices('equipment',['洗衣機','冰箱','電視','冷氣','熱水器','網路','第四台','天然瓦斯'],true))+row('提供家具',choices('furniture',['床','衣櫃','沙發','桌子','椅子'],true))+row('身份要求',choices('tenant_types',['學生','上班族','家庭'],true))+row('性別',choices('gender',['皆可','男生','女生']))+row('開伙',choices('cooking',['可','不可']))+row('養寵物',choices('pets',['可','不可'])));
  add(pricing,row('押金',choices('deposit',['免押金','1個月','2個月','面議','其他']))+row('車位租金',choices('parking_fee_mode',['含租金內','費用另計'])+input('parking_fee','number','min="0"')+' 元／月')+row('水費',choices('water_fee',['台水繳費','平分帳單','費用另計','其他']))+row('電費',choices('electricity_fee',['台電繳費','平分帳單','費用另計','其他'])));
  const priceGrid=pricing.querySelector('.form-grid'),rentField=block('monthly_rent'),askingField=block('asking_price'),unitField=block('price_unit'),managementField=block('monthly_management_fee');
@@ -233,7 +233,7 @@ function enhancePostingForm(form,p,contact,isEditing,isPublishedRevision=false){
  [rentField,depositRow,parkingRentRow,includedFeesField,waterRow,electricityRow,managementField].filter(Boolean).forEach(el=>priceGrid.append(el));q('transaction_type').addEventListener('change',setPriceVisibility);setPriceVisibility();
  add(life,row('生活機能',choices('nearby',['近便利商店','近傳統市場','近百貨公司','近公園綠地','近學校','近醫療機構','近夜市'],true)));
  for(const name of ['station','latitude','longitude','amenities']){const legacy=block(name);if(legacy)legacy.hidden=true}
- const transit=document.createElement('div');transit.className='posting-transit';transit.innerHTML='<strong>附近交通</strong><div class="transit-rows"></div>';life.append(transit);
+ const transit=document.createElement('div');transit.className='field posting-row posting-transit';transit.innerHTML='<label>附近交通</label><div class="posting-transit-content"><div class="transit-rows"></div></div>';life.querySelector(':scope > .form-grid').append(transit);
  const syncTransitButtons=()=>[...transit.querySelectorAll('.transit-rows > div')].forEach((r,i)=>{const button=r.querySelector('button');button.textContent=i===0?'−':'＋';button.setAttribute('aria-label',i===0?'移除站點':'新增站點')});
  const transitRow=(type='公車站',name='')=>{const r=document.createElement('div');r.className='posting-controls';r.innerHTML=`近 <input aria-label="站名" maxlength="80"><select aria-label="交通種類"><option>公車站</option><option>捷運站</option><option>火車站</option></select><button type="button" class="button small">＋</button>`;r.querySelector('input').value=name;r.querySelector('select').value=type;r.querySelector('button').onclick=()=>{if(r.querySelector('button').textContent==='−')r.remove();else transitRow(type)};transit.querySelector('.transit-rows').append(r);syncTransitButtons()};
  (saved.transit?.length?saved.transit:[{type:'公車站'},{type:'公車站'},{type:'捷運站'},{type:'火車站'}]).forEach(x=>transitRow(x.type,x.name||''));
