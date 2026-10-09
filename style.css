@@ -256,3 +256,7 @@ body.listing-posting-mode main:has(.form-wrap){padding-top:0}
 #listing-contact>.form-grid>.field>small{grid-column:2;line-height:1.55}
 @media(max-width:900px){#listing-contact>.form-grid>.field,#listing-contact>.posting-row{grid-template-columns:140px minmax(0,1fr);gap:10px}}
 @media(max-width:600px){#listing-contact>.form-grid>.field,#listing-contact>.posting-row{grid-template-columns:1fr;gap:7px;padding:10px 0}#listing-contact>.form-grid>.field>small{grid-column:1}}
+
+/* Use one clearly named button for each 591-style photo/video uploader. */
+.file-input-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.photo-upload-button,.video-upload-button{display:inline-flex;align-items:center;justify-content:center}
