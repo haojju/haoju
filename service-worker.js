@@ -1,5 +1,5 @@
 'use strict';
-const CACHE='haoju-shell-v1.91.0';
+const CACHE='haoju-shell-v1.92.0';
 const SHELL=['./','./index.html','./style.css','./app.js','./transit-stations.json','./config.js','./vendor/fflate/fflate.js','./supabase.min.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./vendor/leaflet/leaflet.css','./vendor/leaflet/leaflet.js','./vendor/leaflet/images/marker-icon.png','./vendor/leaflet/images/marker-icon-2x.png','./vendor/leaflet/images/marker-shadow.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('haoju-shell-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
