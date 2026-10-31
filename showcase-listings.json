@@ -1,0 +1,579 @@
+[
+  {
+    "title": "【展示物件】捷運生活圈採光兩房",
+    "city": "台北市",
+    "district": "中山區",
+    "street": "林森北路",
+    "transaction_type": "rent",
+    "market_category": "residential",
+    "property_type": "整層住家",
+    "monthly_rent": 29000,
+    "asking_price": null,
+    "price_unit": "monthly",
+    "area_ping": 24,
+    "layout": "2房1廳1衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW01"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n捷運生活圈採光兩房，位於台北市中山區的示範生活圈。規劃面積約 24 坪，格局為2房1廳1衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】電梯三房雙陽台",
+    "city": "新北市",
+    "district": "板橋區",
+    "street": "文化路",
+    "transaction_type": "rent",
+    "market_category": "residential",
+    "property_type": "整層住家",
+    "monthly_rent": 36000,
+    "asking_price": null,
+    "price_unit": "monthly",
+    "area_ping": 36,
+    "layout": "3房2廳2衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW02"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n電梯三房雙陽台，位於新北市板橋區的示範生活圈。規劃面積約 36 坪，格局為3房2廳2衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】藝文特區家庭三房",
+    "city": "桃園市",
+    "district": "桃園區",
+    "street": "中正路",
+    "transaction_type": "rent",
+    "market_category": "residential",
+    "property_type": "整層住家",
+    "monthly_rent": 28500,
+    "asking_price": null,
+    "price_unit": "monthly",
+    "area_ping": 35,
+    "layout": "3房2廳2衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW03"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n藝文特區家庭三房，位於桃園市桃園區的示範生活圈。規劃面積約 35 坪，格局為3房2廳2衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】園區生活圈獨立套房",
+    "city": "新竹市",
+    "district": "東區",
+    "street": "光復路",
+    "transaction_type": "rent",
+    "market_category": "residential",
+    "property_type": "獨立套房",
+    "monthly_rent": 14500,
+    "asking_price": null,
+    "price_unit": "monthly",
+    "area_ping": 11,
+    "layout": "1房1衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW04"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n園區生活圈獨立套房，位於新竹市東區的示範生活圈。規劃面積約 11 坪，格局為1房1衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】獨立陽台明亮套房",
+    "city": "台中市",
+    "district": "西屯區",
+    "street": "福星路",
+    "transaction_type": "rent",
+    "market_category": "residential",
+    "property_type": "獨立套房",
+    "monthly_rent": 12500,
+    "asking_price": null,
+    "price_unit": "monthly",
+    "area_ping": 10,
+    "layout": "1房1衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW05"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n獨立陽台明亮套房，位於台中市西屯區的示範生活圈。規劃面積約 10 坪，格局為1房1衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】靜巷溫馨兩房",
+    "city": "台南市",
+    "district": "東區",
+    "street": "崇善路",
+    "transaction_type": "rent",
+    "market_category": "residential",
+    "property_type": "整層住家",
+    "monthly_rent": 19000,
+    "asking_price": null,
+    "price_unit": "monthly",
+    "area_ping": 23,
+    "layout": "2房1廳1衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW06"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n靜巷溫馨兩房，位於台南市東區的示範生活圈。規劃面積約 23 坪，格局為2房1廳1衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】公園生活圈三房",
+    "city": "高雄市",
+    "district": "左營區",
+    "street": "博愛路",
+    "transaction_type": "rent",
+    "market_category": "residential",
+    "property_type": "整層住家",
+    "monthly_rent": 26000,
+    "asking_price": null,
+    "price_unit": "monthly",
+    "area_ping": 32,
+    "layout": "3房2廳2衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW07"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n公園生活圈三房，位於高雄市左營區的示範生活圈。規劃面積約 32 坪，格局為3房2廳2衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】市區舒適獨立套房",
+    "city": "花蓮縣",
+    "district": "花蓮市",
+    "street": "中山路",
+    "transaction_type": "rent",
+    "market_category": "residential",
+    "property_type": "獨立套房",
+    "monthly_rent": 9500,
+    "asking_price": null,
+    "price_unit": "monthly",
+    "area_ping": 9,
+    "layout": "1房1衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW08"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n市區舒適獨立套房，位於花蓮縣花蓮市的示範生活圈。規劃面積約 9 坪，格局為1房1衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】採光邊間電梯三房",
+    "city": "新北市",
+    "district": "新店區",
+    "street": "北新路",
+    "transaction_type": "sale",
+    "market_category": "residential",
+    "property_type": "整層住家",
+    "monthly_rent": null,
+    "asking_price": 21800000,
+    "price_unit": "total",
+    "area_ping": 38,
+    "layout": "3房2廳2衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW09"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n採光邊間電梯三房，位於新北市新店區的示範生活圈。規劃面積約 38 坪，格局為3房2廳2衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】方正四房含平面車位",
+    "city": "新竹縣",
+    "district": "竹北市",
+    "street": "光明六路",
+    "transaction_type": "sale",
+    "market_category": "residential",
+    "property_type": "整層住家",
+    "monthly_rent": null,
+    "asking_price": 26800000,
+    "price_unit": "total",
+    "area_ping": 48,
+    "layout": "4房2廳2衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW10"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n方正四房含平面車位，位於新竹縣竹北市的示範生活圈。規劃面積約 48 坪，格局為4房2廳2衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】市區機能透天住宅",
+    "city": "彰化縣",
+    "district": "彰化市",
+    "street": "中正路",
+    "transaction_type": "sale",
+    "market_category": "residential",
+    "property_type": "整層住家",
+    "monthly_rent": null,
+    "asking_price": 12800000,
+    "price_unit": "total",
+    "area_ping": 52,
+    "layout": "4房2廳3衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW11"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n市區機能透天住宅，位於彰化縣彰化市的示範生活圈。規劃面積約 52 坪，格局為4房2廳3衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】公園旁溫馨三房",
+    "city": "嘉義市",
+    "district": "西區",
+    "street": "南京路",
+    "transaction_type": "sale",
+    "market_category": "residential",
+    "property_type": "整層住家",
+    "monthly_rent": null,
+    "asking_price": 8900000,
+    "price_unit": "total",
+    "area_ping": 34,
+    "layout": "3房2廳2衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW12"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n公園旁溫馨三房，位於嘉義市西區的示範生活圈。規劃面積約 34 坪，格局為3房2廳2衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】寬敞雙陽台三房",
+    "city": "台南市",
+    "district": "安平區",
+    "street": "永華路",
+    "transaction_type": "sale",
+    "market_category": "residential",
+    "property_type": "整層住家",
+    "monthly_rent": null,
+    "asking_price": 13800000,
+    "price_unit": "total",
+    "area_ping": 40,
+    "layout": "3房2廳2衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW13"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n寬敞雙陽台三房，位於台南市安平區的示範生活圈。規劃面積約 40 坪，格局為3房2廳2衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】家庭首選四房透天",
+    "city": "屏東縣",
+    "district": "屏東市",
+    "street": "廣東路",
+    "transaction_type": "sale",
+    "market_category": "residential",
+    "property_type": "整層住家",
+    "monthly_rent": null,
+    "asking_price": 9800000,
+    "price_unit": "total",
+    "area_ping": 56,
+    "layout": "4房2廳3衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [
+      "近便利商店",
+      "近公園"
+    ],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW14"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n家庭首選四房透天，位於屏東縣屏東市的示範生活圈。規劃面積約 56 坪，格局為4房2廳3衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】青埔兩房新成屋",
+    "city": "桃園市",
+    "district": "中壢區",
+    "street": "青峰路",
+    "transaction_type": "sale",
+    "market_category": "new_development",
+    "property_type": "新成屋",
+    "monthly_rent": null,
+    "asking_price": 16800000,
+    "price_unit": "total",
+    "area_ping": 29,
+    "layout": "2房2廳1衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW15"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n青埔兩房新成屋，位於桃園市中壢區的示範生活圈。規劃面積約 29 坪，格局為2房2廳1衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。",
+    "project_status": "已完工",
+    "developer_name": "展示建案（虛構）"
+  },
+  {
+    "title": "【展示物件】公園三房新成屋",
+    "city": "台中市",
+    "district": "北屯區",
+    "street": "松竹路",
+    "transaction_type": "sale",
+    "market_category": "new_development",
+    "property_type": "新成屋",
+    "monthly_rent": null,
+    "asking_price": 19800000,
+    "price_unit": "total",
+    "area_ping": 39,
+    "layout": "3房2廳2衛",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW16"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n公園三房新成屋，位於台中市北屯區的示範生活圈。規劃面積約 39 坪，格局為3房2廳2衛。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。",
+    "project_status": "已完工",
+    "developer_name": "展示建案（虛構）"
+  },
+  {
+    "title": "【展示物件】田園景觀農地",
+    "city": "宜蘭縣",
+    "district": "員山鄉",
+    "street": "員山路",
+    "transaction_type": "sale",
+    "market_category": "land",
+    "property_type": "土地",
+    "monthly_rent": null,
+    "asking_price": 6800000,
+    "price_unit": "total",
+    "area_ping": 320,
+    "layout": "",
+    "floor_label": "土地",
+    "advertiser_type": "代理人",
+    "amenities": [],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW17"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n田園景觀農地，位於宜蘭縣員山鄉的示範生活圈。規劃面積約 320 坪，可依需求安排空間。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。",
+    "land_type": "農地"
+  },
+  {
+    "title": "【展示物件】方正土地規劃空間",
+    "city": "南投縣",
+    "district": "草屯鎮",
+    "street": "中正路",
+    "transaction_type": "sale",
+    "market_category": "land",
+    "property_type": "土地",
+    "monthly_rent": null,
+    "asking_price": 12500000,
+    "price_unit": "total",
+    "area_ping": 150,
+    "layout": "",
+    "floor_label": "土地",
+    "advertiser_type": "代理人",
+    "amenities": [],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW18"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n方正土地規劃空間，位於南投縣草屯鎮的示範生活圈。規劃面積約 150 坪，可依需求安排空間。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。",
+    "land_type": "建地"
+  },
+  {
+    "title": "【展示物件】市郊開闊農地",
+    "city": "台東縣",
+    "district": "台東市",
+    "street": "中華路",
+    "transaction_type": "sale",
+    "market_category": "land",
+    "property_type": "土地",
+    "monthly_rent": null,
+    "asking_price": 5200000,
+    "price_unit": "total",
+    "area_ping": 280,
+    "layout": "",
+    "floor_label": "土地",
+    "advertiser_type": "代理人",
+    "amenities": [],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW19"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n市郊開闊農地，位於台東縣台東市的示範生活圈。規劃面積約 280 坪，可依需求安排空間。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。",
+    "land_type": "農地"
+  },
+  {
+    "title": "【展示物件】市區臨路店面",
+    "city": "基隆市",
+    "district": "仁愛區",
+    "street": "仁二路",
+    "transaction_type": "rent",
+    "market_category": "shop",
+    "property_type": "店面",
+    "monthly_rent": 32000,
+    "asking_price": null,
+    "price_unit": "monthly",
+    "area_ping": 22,
+    "layout": "開放空間",
+    "floor_label": "1樓",
+    "advertiser_type": "代理人",
+    "amenities": [],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW20"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n市區臨路店面，位於基隆市仁愛區的示範生活圈。規劃面積約 22 坪，格局為開放空間。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】明亮商務辦公空間",
+    "city": "台北市",
+    "district": "內湖區",
+    "street": "瑞光路",
+    "transaction_type": "rent",
+    "market_category": "office",
+    "property_type": "辦公室",
+    "monthly_rent": 58000,
+    "asking_price": null,
+    "price_unit": "monthly",
+    "area_ping": 46,
+    "layout": "開放空間",
+    "floor_label": "5／12樓",
+    "advertiser_type": "代理人",
+    "amenities": [],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW21"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n明亮商務辦公空間，位於台北市內湖區的示範生活圈。規劃面積約 46 坪，格局為開放空間。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】寬敞倉儲廠房",
+    "city": "雲林縣",
+    "district": "斗六市",
+    "street": "文化路",
+    "transaction_type": "rent",
+    "market_category": "industrial",
+    "property_type": "廠房",
+    "monthly_rent": 48000,
+    "asking_price": null,
+    "price_unit": "monthly",
+    "area_ping": 120,
+    "layout": "開放空間",
+    "floor_label": "1樓",
+    "advertiser_type": "代理人",
+    "amenities": [],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW22"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n寬敞倉儲廠房，位於雲林縣斗六市的示範生活圈。規劃面積約 120 坪，格局為開放空間。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】室內平面車位",
+    "city": "高雄市",
+    "district": "苓雅區",
+    "street": "三多路",
+    "transaction_type": "rent",
+    "market_category": "parking",
+    "property_type": "車位",
+    "monthly_rent": 3500,
+    "asking_price": null,
+    "price_unit": "monthly",
+    "area_ping": 8,
+    "layout": "",
+    "floor_label": "B1",
+    "advertiser_type": "代理人",
+    "amenities": [],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW23"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n室內平面車位，位於高雄市苓雅區的示範生活圈。規劃面積約 8 坪，可依需求安排空間。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  },
+  {
+    "title": "【展示物件】街角小店頂讓",
+    "city": "澎湖縣",
+    "district": "馬公市",
+    "street": "中華路",
+    "transaction_type": "business_transfer",
+    "market_category": "shop",
+    "property_type": "店面頂讓",
+    "monthly_rent": null,
+    "asking_price": 680000,
+    "price_unit": "total",
+    "area_ping": 18,
+    "layout": "開放空間",
+    "floor_label": "1樓",
+    "advertiser_type": "代理人",
+    "amenities": [],
+    "rental_details": {
+      "showcase_batch": "tw-24-v1",
+      "showcase_key": "TW24"
+    },
+    "description": "【平台展示物件，非真實待租售房源】\n本筆資料為好居版面與搜尋功能展示用途，地區、路名、價格與格局皆為示例，不代表該位置有此物件，也不提供實際看屋、承租、購買或聯絡服務。\n\n街角小店頂讓，位於澎湖縣馬公市的示範生活圈。規劃面積約 18 坪，格局為開放空間。介紹呈現採光、動線與周邊機能等欄位，讓使用者了解平台上的物件資訊排版。所列價格僅用於功能展示，並非行情估價。"
+  }
+]
