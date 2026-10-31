@@ -59,7 +59,7 @@ async function importShowcaseListings(button){
   const keys=new Set(existing.map(p=>p.rental_details?.showcase_key));
   const missing=templates.filter(p=>!keys.has(p.rental_details.showcase_key));
   let created=[];
-  if(missing.length)created=await result(db.from('listings').insert(missing.map(p=>({...p,owner_id:uid,status:'draft'}))).select('id,status,rental_details'));
+  if(missing.length)created=await result(db.from('listings').insert(missing.map(p=>({...p,developer_name:p.developer_name??'',project_status:p.project_status??'',land_type:p.land_type??'',owner_id:uid,status:'draft'}))).select('id,status,rental_details'));
   const drafts=[...existing,...created].filter(p=>p.status==='draft');
   if(drafts.length){const published=await result(db.from('listings').update({status:'published'}).eq('owner_id',uid).in('id',drafts.map(p=>p.id)).eq('status','draft').select('id'));if(published.length!==drafts.length)throw Error('部分展示物件尚未上架，請到物件管理確認後重試')}
   toast(missing.length||drafts.length?'展示物件已刊登，可到前台查看':'這批展示物件已建立，沒有重複新增；已下架物件會維持下架');
